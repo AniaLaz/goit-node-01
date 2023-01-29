@@ -32,9 +32,9 @@ async function getContactById(contactId) {
   }
 }
 
-// function removeContact(contactId) {
-//   // ...твой код
-// }
+function removeContact(contactId) {
+  // ...твой код
+}
 
 // function addContact(name, email, phone) {
 //   // ...твой код
@@ -43,4 +43,5 @@ async function getContactById(contactId) {
 module.exports = {
   listContacts,
   getContactById,
+  removeContact,
 };
